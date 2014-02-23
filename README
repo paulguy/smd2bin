@@ -1,0 +1,10 @@
+Small utility to convert Super MagicDrive (SMD) to linear (BIN) Sega Genesis/MegaDrive ROMs.  Should compile and 
+run on all platforms with a C compiler and the standard C libraries including Windows but only tested on Linux.
+
+USAGE:
+smd2bin <filename>
+
+EXAMPLE:
+smd2bin roms/genesis/sonic2.smd
+
+Outputs sonic2.smd.bin in to roms/genesis/ properly reformatted.
